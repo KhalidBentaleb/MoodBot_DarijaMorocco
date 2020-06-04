@@ -1,0 +1,33 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Salam! Kidayer labas 3lik ?"
+
+  utter_cheer_up:
+  - text: "Ha hiya chi haja atale3 lik lmorale :"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "hadchi 3awneek ?"
+
+  utter_happy:
+  - text: "Mzyan, Kameel"
+
+  utter_goodbye:
+  - text: "Besslama"
+  - text: "Thala"
+
+  utter_iamabot:
+  - text: "Ana ghire robot, m9aadni Khalid"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
